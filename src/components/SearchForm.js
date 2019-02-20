@@ -9,7 +9,7 @@ const SearchForm = () => {
         <Form.Control type="search" placeholder="enter something..." />
       </Form.Group>
       {' '}
-      <Button type="submit">
+      <Button type="submit" className="search-btn">
         search
       </Button>
     </Form>
